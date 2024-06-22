@@ -11,7 +11,7 @@ To run the app, Python and Node.js must be installed.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/podskio/gym-scheduler.git
+git clone https://github.com/zhenye0616/gym-scheduler.git
 cd gym-scheduler
 ```
 
