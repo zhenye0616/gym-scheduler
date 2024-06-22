@@ -2,9 +2,7 @@
 
 This is a simple website designed for a gym that allows users to reserve spaces, rent equipment, and manage their membership. The frontend is built with React, and the backend is built with Python, Flask, and Sqlite.
 
-[Live Application](https://gymscheduler.vercel.app)
 
-<!-- [Video Demo]() -->
 
 ## Local Development
 
