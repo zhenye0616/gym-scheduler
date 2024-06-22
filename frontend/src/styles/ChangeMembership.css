@@ -1,0 +1,94 @@
+.change-membership {
+  padding: 0px 20px;
+}
+
+.header button {
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.plan-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* padding: 0px 20px; */
+  padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .plan-buttons {
+    flex-direction: column;
+  }
+}
+
+.plan-buttons div {
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 16px;
+  transition: background-color 0.2s;
+}
+
+.price {
+  font-size: 32px;
+  font-family: monospace;
+}
+
+.benefits-title {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.plan-buttons div ul {
+  padding-left: 20px;
+}
+
+.plan-buttons div ul li {
+  text-align: left;
+}
+
+@media (min-width: 600px) {
+  .plan-buttons div {
+    width: 100%;
+  }
+}
+
+.plan-buttons h3 {
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+.guest {
+  background-color: #ff8170;
+}
+
+.guest:hover {
+  background-color: #ff9e9e;
+}
+
+.member {
+  background-color: #feba45;
+}
+
+.member:hover {
+  background-color: #ffcc9e;
+}
+
+.supermember {
+  background-color: #e0ff63;
+}
+
+.supermember:hover {
+  background-color: #d4ff9e;
+}
+
+.current-plan {
+  text-align: center;
+  font-size: 26px;
+}

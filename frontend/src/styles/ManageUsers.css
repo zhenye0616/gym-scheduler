@@ -1,0 +1,60 @@
+.users-list {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.user-item-container {
+    position: relative; /* Ensure relative positioning for absolute dropdown */
+}
+
+
+.user-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr; /* Define columns for each part */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%; /* Ensure full width for positioning dropdown */
+    background: none; /* Remove default button styling */
+    border: none;
+    cursor: pointer;
+}
+
+.user-item p {
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add padding to separate the text */
+    text-align: center; /* Center align text within the grid columns */
+}
+
+.users-list-label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr; /* Match columns with user-item */
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13px;
+    font-weight: bold; /* Make labels bold to differentiate from content */
+    text-align: center; /* Center align text within the grid columns */
+}
+
+.users-list-label p {
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add padding to separate the text */
+}
+
+.edit-user {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 70;
+    width: calc(100% - 22px); /* to fit parent */
+    left: 10px;
+    /* border-radius:10px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}

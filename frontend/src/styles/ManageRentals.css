@@ -1,0 +1,47 @@
+.equipment-list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.equipment-rentals {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.equipment-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Define columns for each part */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  width: 100%; /* Ensure full width for positioning dropdown */
+  background: none; /* Remove default button styling */
+  border: none;
+  cursor: pointer;
+}
+.equipment-item p {
+  margin: 0; /* Remove default margin */
+  padding: 0 10px; /* Add padding to separate the text */
+  text-align: center; /* Center align text within the grid columns */
+}
+
+.return-button {
+  display: flex;
+  margin: 0 auto 0 auto;
+}
+
+.equipment-list-label {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Match columns with user-item */
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 13px;
+  font-weight: bold; /* Make labels bold to differentiate from content */
+  text-align: center; /* Center align text within the grid columns */
+}
+.equipment-list-label p {
+  margin: 0; /* Remove default margin */
+  padding: 0 10px; /* Add padding to separate the text */
+}

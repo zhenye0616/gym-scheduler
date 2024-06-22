@@ -1,0 +1,78 @@
+.schedule-space {
+  padding: 0px 20px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.schedule-space-container p {
+  font-size: 20px;
+}
+
+.schedule-space-options button {
+  font-size: 40px;
+  width: 600px;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.schedule-space-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.court-types {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+
+  position: relative;
+  top: 15px;
+  border-radius: 6px;
+}
+
+.court-types button {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  text-align: left;
+
+  position: relative;
+  left: -40px;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: lightgrey;
+}
+li {
+  position: relative;
+  left: 40px;
+}
+ul {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.add-border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: lightgrey;
+}
+
+.continue-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}

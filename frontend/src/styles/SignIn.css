@@ -1,0 +1,81 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  position: absolute;
+
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.signin-title {
+  top: 15px;
+  font-size: 40px;
+}
+
+.signin-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.signin-input-container input {
+  border: 0;
+  margin-top: 8px;
+
+  width: 450px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+
+  padding: 5px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-evenly; */
+  align-items: center;
+  height: 100%;
+}
+
+.signin-form label {
+  position: relative;
+  left: 5px;
+}
+
+.signin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+
+  border: 0;
+  width: 450px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: white;
+
+  margin-top: 20px;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.join {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

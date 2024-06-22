@@ -1,0 +1,80 @@
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+} */
+
+.header button {
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.equipment-rentals {
+  padding: 0px 20px;
+}
+
+.rental-search {
+  margin-bottom: 20px;
+}
+
+.rental-list {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .rental-list {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.rental-list div {
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.rental-list h3 {
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+.rental-list div svg {
+  width: 100%;
+  max-width: 100px;
+}
+
+.rental-confirmation{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  z-index: 9999;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+
+.rental-confirmation svg{
+  position:absolute;
+  top:10px;
+  right:10px;
+  cursor:pointer;
+}

@@ -1,0 +1,37 @@
+.staff-container {
+  padding: 0px 20px;
+}
+.manage-container {
+  display: flex;
+  flex-direction: row;
+}
+.staff-navigation-bar {
+  background-color: #f0f0f0;
+  height: 700px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.active-button {
+  border-width: 2px;
+  border-color: black;
+  border: solid;
+}
+.manage-component-div {
+  /* border:solid; */
+  /* border-color:black; */
+  border-width: 2px;
+  width: 800px;
+  position: relative;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.equipment-stock {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

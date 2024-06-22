@@ -1,0 +1,75 @@
+.schedule-event {
+  padding: 0px 20px;
+}
+.schedule-event h2 {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.schedule-event p {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+} */
+.choose-date {
+  padding: 0px 20px;
+}
+
+.calendar {
+  margin: auto;
+}
+
+.add-event {
+  width: 300px;
+  background-color: #f0f0f0;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.schedule-event-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-event h3 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.event-details {
+  width: 250px;
+  height: 30px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-top: 5px;
+}
+
+.event-details div {
+  margin-top: 5px;
+}
+
+.court-selection {
+  position: relative;
+  top: 10px;
+}
+.reserve {
+  position: relative;
+  top: 20px;
+  background-color: white;
+}
